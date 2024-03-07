@@ -1,0 +1,16 @@
+<model-viewer src="lion3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate autoplay>
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 3486 3571 3612 0.397 0.142 0.461" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">尾巴搖搖</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 3775 3774 3776 0.010 0.467 0.522" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">跑跑跑</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
